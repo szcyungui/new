@@ -1,0 +1,4 @@
+npm install babel-eslint@10.0.2 eslint-plugin-jsx-a11y eslint-plugin-react --save-dev  
+安装依赖10.0.2 至于为什么这个版本不太了解
+npm config set registry https://registry.npm.taobao.org   //npm config set registry http://registry.cnpmjs.org
+更换国内镜像源  淘宝的(PS:个别博主说不要用淘宝的，注意一下就好)
