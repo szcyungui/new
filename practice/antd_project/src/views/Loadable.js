@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+//这个文件只是用于解释react-loadable原理用的，当然可以无缝切换
 const Loadable = ({ loader, loading: Loading }) => {
   return class LoadableComponent extends Component {
     state = {

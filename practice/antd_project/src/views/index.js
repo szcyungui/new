@@ -4,9 +4,12 @@
 // import Settings from "./Settings";
 // import Ariticlelist from "./Ariticle";
 // import AriticleEdit from "./Ariticle/Edit";
+
+//下面这个就是一个简易的loadable的原理
 import {Loading} from "../components";
-// import loadable from "react-loadable";
-import Loadable from './Loadable'
+import Loadable from "react-loadable";
+//下面这个就是一个简易的loadable的原理
+// import Loadable from './Loadable'
 //下面是懒加载
 const Dashboard = Loadable({
   loader: () => import("./Dashboard"),
