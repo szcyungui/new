@@ -16,6 +16,12 @@ export const mainRoutes = [{
 ] 
 
 export const adminRoutes = [{
+    pathname:'/admin/dashboard',
+    component:Dashboard,
+    Icon:"issues-close",
+    title:'仪表盘',
+    isNav:true
+},{
     pathname:'/admin/ariticle',
     component:Ariticlelist,
     exact: true,
@@ -24,18 +30,6 @@ export const adminRoutes = [{
     isNav:true
     // 具有引申的较短的那一条路径需要用exact来进行限定
     // 不然类似于下面那台路由无法执行
-},{
-    pathname:'/admin/ariticle/edit/:id',
-    component:AriticleEdit,
-    title:'文章编辑',
-    Icon:"edit",
-    isNav:true
-},{
-    pathname:'/admin/dashboard',
-    component:Dashboard,
-    Icon:"issues-close",
-    title:'仪表盘',
-    isNav:true
 },{
     pathname:'/admin/settings',
     component:Settings,

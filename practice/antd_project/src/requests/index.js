@@ -1,5 +1,5 @@
 import axios from "axios";
-import {message} from 'antd'
+import { message } from "antd";
 // baseUrl = 'http://rap2api.taobao.org/app/mock/235072'
 
 const isDev = process.env.NODE_ENV === "development";
@@ -22,7 +22,7 @@ service.interceptors.response.use(resp => {
     return resp.data.data;
   } else {
     //   alert('出错了！')
-    message.error(resp.data.errMeg)
+    message.error(resp.data.errMeg);
     //处理错误
   }
 });
